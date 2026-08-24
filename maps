@@ -3,46 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-49.089034, -5.354828]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-48.235777, -7.192785]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-48.235772, -7.192783],
-          [-49.089034, -5.354826],
-          [-49.089034, -5.354822],
-          [-49.0893, -5.354818]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.089184, -5.354814],
-          [-49.08926, -5.354828]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "properties": { "name": "afrodite" },
       "geometry": { "type": "Point", "coordinates": [-49.047475, -5.212737] }
     },
@@ -93,6 +53,11 @@
     },
     {
       "type": "Feature",
+      "properties": { "name": "fanes" },
+      "geometry": { "type": "Point", "coordinates": [-49.078464, -5.390933] }
+    },
+    {
+      "type": "Feature",
       "properties": { "name": "hades" },
       "geometry": { "type": "Point", "coordinates": [-49.09819025052567, -5.346501528667517] }
     },
@@ -133,6 +98,11 @@
     },
     {
       "type": "Feature",
+      "properties": { "name": "limos" },
+      "geometry": { "type": "Point", "coordinates": [-49.135207, -5.348933] }
+    },
+    {
+      "type": "Feature",
       "properties": { "name": "morfeu" },
       "geometry": { "type": "Point", "coordinates": [-48.3784849941, -1.3619269717059668] }
     },
@@ -140,6 +110,11 @@
       "type": "Feature",
       "properties": { "name": "neftis" },
       "geometry": { "type": "Point", "coordinates": [-49.906971, -6.0676463] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "nix" },
+      "geometry": { "type": "Point", "coordinates": [-49.088045, -5.354103] }
     },
     {
       "type": "Feature",
@@ -200,6 +175,94 @@
       "type": "Feature",
       "properties": { "name": "urano" },
       "geometry": { "type": "Point", "coordinates": [-48.4226531, -1.3955545] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Afrodite <> Hermes" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.047475, -5.212737],
+          [-49.075815, -5.2928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Hermes <> Poseidon" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.075815, -5.2928],
+          [-49.095832, -5.337349]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Eros <> Apolo" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.125047, -5.37055],
+          [-49.08894, -5.354782]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Apolo <> Fanes" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.08894, -5.354782],
+          [-49.078464, -5.390933]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Apolo <> Hades" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.08894, -5.354782],
+          [-49.09819025052567, -5.346501528667517]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Helius <> Cratos" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.115986, -5.364761],
+          [-49.174802, -5.371639]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Limos <> Apolo" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.135207, -5.348933],
+          [-49.08894, -5.354782]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Nix <> Apolo" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.088045, -5.354103],
+          [-49.08894, -5.354782]
+        ]
+      }
     }
   ]
 }
