@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "aafrodite" },
+      "properties": { "name": "afrodite" },
       "geometry": { "type": "Point", "coordinates": [-49.047475, -5.212737] }
     },
     {
@@ -100,6 +100,11 @@
       "type": "Feature",
       "properties": { "name": "limos" },
       "geometry": { "type": "Point", "coordinates": [-49.135207, -5.348933] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "marduk" },
+      "geometry": { "type": "Point", "coordinates": [-48.47329048965354, -1.4559570404515452] }
     },
     {
       "type": "Feature",
@@ -261,6 +266,17 @@
         "coordinates": [
           [-49.088045, -5.354103],
           [-49.08894, -5.354782]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Link Afrodite <> Morfeu" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.047475, -5.212737],
+          [-48.3784849941, -1.3619269717059668]
         ]
       }
     }
