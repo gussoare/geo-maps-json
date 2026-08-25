@@ -1,284 +1,72 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": { "name": "afrodite" },
-      "geometry": { "type": "Point", "coordinates": [-49.047475, -5.212737] }
+  "pops": {
+    "afrodite": {
+      "coordenadas": "-5.212737 / -49.047475",
+      "conexoes": ["hermes"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "amaterasu" },
-      "geometry": { "type": "Point", "coordinates": [-49.335071, -5.136909] }
+    "amaterasu": {
+      "coordenadas": "-5.136909 / -49.335071",
+      "conexoes": ["cratos", "cetic"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "anubis" },
-      "geometry": { "type": "Point", "coordinates": [-49.846689, -6.08919] }
+    "anubis": {
+      "coordenadas": "-6.089190 / -49.846689",
+      "conexoes": ["osiris", "uruguai", "monaco", "guiana"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "apolo" },
-      "geometry": { "type": "Point", "coordinates": [-49.08894, -5.354782] }
+    "apolo": {
+      "coordenadas": "-5.354782 / -49.088940",
+      "conexoes": ["demeter", "hora", "eos", "hades", "poseidon"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "ceuci" },
-      "geometry": { "type": "Point", "coordinates": [-50.0465387, -7.3142801] }
+    "hades": {
+      "coordenadas": "-5.346501528667517 / -49.09819025052567",
+      "conexoes": ["apolo", "poseidon"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "corvina" },
-      "geometry": { "type": "Point", "coordinates": [-49.132712415345274, -5.377187798119403] }
+    "hermes": {
+      "coordenadas": "-5.292800 / -49.075815",
+      "conexoes": ["afrodite", "poseidon"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "cratos" },
-      "geometry": { "type": "Point", "coordinates": [-49.174802, -5.371639] }
+    "poseidon": {
+      "coordenadas": "-5.337349 / -49.095832",
+      "conexoes": ["afrodite", "hermes", "hera", "morfeu", "marduk", "hades", "iturama", "hora"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "demeter" },
-      "geometry": { "type": "Point", "coordinates": [-48.5707962, -6.3868438] }
+    "cratos": {
+      "coordenadas": "-5.371639 / -49.174802",
+      "conexoes": ["amaterasu"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "erebo" },
-      "geometry": { "type": "Point", "coordinates": [-48.53899508714676, -6.409763853753774] }
+    "cetic": {
+      "coordenadas": null,
+      "conexoes": ["amaterasu"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "eros" },
-      "geometry": { "type": "Point", "coordinates": [-49.125047, -5.37055] }
+    "osiris": {
+      "coordenadas": "-6.066979 / -49.894780",
+      "conexoes": ["anubis"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "fanes" },
-      "geometry": { "type": "Point", "coordinates": [-49.078464, -5.390933] }
+    "hera": {
+      "coordenadas": null,
+      "conexoes": ["poseidon", "morfeu", "marduk"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "hades" },
-      "geometry": { "type": "Point", "coordinates": [-49.09819025052567, -5.346501528667517] }
+    "morfeu": {
+      "coordenadas": "-1.3619269717059668 / -48.378484994173064",
+      "conexoes": ["poseidon", "hera", "marduk"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "hefesto" },
-      "geometry": { "type": "Point", "coordinates": [-47.47880436480046, -5.494687389011173] }
+    "marduk": {
+      "coordenadas": "-1.4559570404515452 / -48.47329575559752",
+      "conexoes": ["poseidon", "hera", "morfeu"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "helius" },
-      "geometry": { "type": "Point", "coordinates": [-49.115986, -5.364761] }
+    "demeter": {
+      "coordenadas": "-6.3868438 / -48.5707962",
+      "conexoes": ["apolo"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "hemera" },
-      "geometry": { "type": "Point", "coordinates": [-49.1306543, -5.3837204] }
+    "hora": {
+      "coordenadas": "-7.1857204852733165 / -48.23521614074708",
+      "conexoes": ["apolo", "eos", "iturama", "poseidon"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "hermes" },
-      "geometry": { "type": "Point", "coordinates": [-49.075815, -5.2928] }
+    "eos": {
+      "coordenadas": "-23.493182448416277 / -46.809297242327354",
+      "conexoes": ["apolo", "hora"]
     },
-    {
-      "type": "Feature",
-      "properties": { "name": "hestia" },
-      "geometry": { "type": "Point", "coordinates": [-48.424616, -1.398789] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "hora" },
-      "geometry": { "type": "Point", "coordinates": [-48.2352161407, -7.1857204852733165] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "ilitia" },
-      "geometry": { "type": "Point", "coordinates": [-49.100055, -5.345627] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "limos" },
-      "geometry": { "type": "Point", "coordinates": [-49.135207, -5.348933] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "marduk" },
-      "geometry": { "type": "Point", "coordinates": [-48.47329048965354, -1.4559570404515452] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "morfeu" },
-      "geometry": { "type": "Point", "coordinates": [-48.3784849941, -1.3619269717059668] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "neftis" },
-      "geometry": { "type": "Point", "coordinates": [-49.906971, -6.0676463] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "nix" },
-      "geometry": { "type": "Point", "coordinates": [-49.088045, -5.354103] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "noto" },
-      "geometry": { "type": "Point", "coordinates": [-49.041312, -5.373725] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "odin" },
-      "geometry": { "type": "Point", "coordinates": [-50.030671, -8.039234] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "osiris" },
-      "geometry": { "type": "Point", "coordinates": [-49.89478, -6.066979] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "persefone" },
-      "geometry": { "type": "Point", "coordinates": [-49.17421, -5.35802] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "poseidon" },
-      "geometry": { "type": "Point", "coordinates": [-49.095832, -5.337349] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "selene" },
-      "geometry": { "type": "Point", "coordinates": [-47.5493481382, -2.0468312738309886] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "set" },
-      "geometry": { "type": "Point", "coordinates": [-49.939259, -6.073119] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "teia" },
-      "geometry": { "type": "Point", "coordinates": [-49.085658, -5.357452] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "telesto" },
-      "geometry": { "type": "Point", "coordinates": [-48.7334129, -5.5376436] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "telo" },
-      "geometry": { "type": "Point", "coordinates": [-49.8559196, -6.5293829] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "tupi" },
-      "geometry": { "type": "Point", "coordinates": [-49.939259, -7.105842] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "urano" },
-      "geometry": { "type": "Point", "coordinates": [-48.4226531, -1.3955545] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Afrodite <> Hermes" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.047475, -5.212737],
-          [-49.075815, -5.2928]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Hermes <> Poseidon" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.075815, -5.2928],
-          [-49.095832, -5.337349]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Eros <> Apolo" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.125047, -5.37055],
-          [-49.08894, -5.354782]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Apolo <> Fanes" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.08894, -5.354782],
-          [-49.078464, -5.390933]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Apolo <> Hades" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.08894, -5.354782],
-          [-49.09819025052567, -5.346501528667517]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Helius <> Cratos" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.115986, -5.364761],
-          [-49.174802, -5.371639]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Limos <> Apolo" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.135207, -5.348933],
-          [-49.08894, -5.354782]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Nix <> Apolo" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.088045, -5.354103],
-          [-49.08894, -5.354782]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Link Afrodite <> Morfeu" },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-49.047475, -5.212737],
-          [-48.3784849941, -1.3619269717059668]
-        ]
-      }
+    "iturama": {
+      "coordenadas": null,
+      "conexoes": ["poseidon", "hora"]
     }
-  ]
+  }
 }
