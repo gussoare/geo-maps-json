@@ -1,72 +1,94 @@
 {
-  "pops": {
-    "afrodite": {
-      "coordenadas": "-5.212737 / -49.047475",
-      "conexoes": ["hermes"]
+  "conexoes": [
+    {
+      "origem": "afrodite",
+      "destino": "hermes",
+      "coordenadas": "-5.212737 / -49.047475 <> -5.292800 / -49.075815"
     },
-    "amaterasu": {
-      "coordenadas": "-5.136909 / -49.335071",
-      "conexoes": ["cratos", "cetic"]
+    {
+      "origem": "hermes",
+      "destino": "poseidon",
+      "coordenadas": "-5.292800 / -49.075815 <> -5.337349 / -49.095832"
     },
-    "anubis": {
-      "coordenadas": "-6.089190 / -49.846689",
-      "conexoes": ["osiris", "uruguai", "monaco", "guiana"]
+    {
+      "origem": "amaterasu",
+      "destino": "cratos",
+      "coordenadas": "-5.136909 / -49.335071 <> -5.371639 / -49.174802"
     },
-    "apolo": {
-      "coordenadas": "-5.354782 / -49.088940",
-      "conexoes": ["demeter", "hora", "eos", "hades", "poseidon"]
+    {
+      "origem": "cratos",
+      "destino": "cetic",
+      "coordenadas": "-5.371639 / -49.174802 <> null"
     },
-    "hades": {
-      "coordenadas": "-5.346501528667517 / -49.09819025052567",
-      "conexoes": ["apolo", "poseidon"]
+    {
+      "origem": "anubis",
+      "destino": "osiris",
+      "coordenadas": "-6.089190 / -49.846689 <> -6.066979 / -49.894780"
     },
-    "hermes": {
-      "coordenadas": "-5.292800 / -49.075815",
-      "conexoes": ["afrodite", "poseidon"]
+    {
+      "origem": "osiris",
+      "destino": "uruguai",
+      "coordenadas": "-6.066979 / -49.894780 <> null"
     },
-    "poseidon": {
-      "coordenadas": "-5.337349 / -49.095832",
-      "conexoes": ["afrodite", "hermes", "hera", "morfeu", "marduk", "hades", "iturama", "hora"]
+    {
+      "origem": "osiris",
+      "destino": "monaco",
+      "coordenadas": "-6.066979 / -49.894780 <> null"
     },
-    "cratos": {
-      "coordenadas": "-5.371639 / -49.174802",
-      "conexoes": ["amaterasu"]
+    {
+      "origem": "osiris",
+      "destino": "guiana",
+      "coordenadas": "-6.066979 / -49.894780 <> null"
     },
-    "cetic": {
-      "coordenadas": null,
-      "conexoes": ["amaterasu"]
+    {
+      "origem": "poseidon",
+      "destino": "hera",
+      "coordenadas": "-5.337349 / -49.095832 <> null"
     },
-    "osiris": {
-      "coordenadas": "-6.066979 / -49.894780",
-      "conexoes": ["anubis"]
+    {
+      "origem": "hera",
+      "destino": "morfeu",
+      "coordenadas": "null <> -1.3619269717059668 / -48.378484994173064"
     },
-    "hera": {
-      "coordenadas": null,
-      "conexoes": ["poseidon", "morfeu", "marduk"]
+    {
+      "origem": "morfeu",
+      "destino": "marduk",
+      "coordenadas": "-1.3619269717059668 / -48.378484994173064 <> -1.4559570404515452 / -48.47329575559752"
     },
-    "morfeu": {
-      "coordenadas": "-1.3619269717059668 / -48.378484994173064",
-      "conexoes": ["poseidon", "hera", "marduk"]
+    {
+      "origem": "apolo",
+      "destino": "demeter",
+      "coordenadas": "-5.354782 / -49.088940 <> -6.3868438 / -48.5707962"
     },
-    "marduk": {
-      "coordenadas": "-1.4559570404515452 / -48.47329575559752",
-      "conexoes": ["poseidon", "hera", "morfeu"]
+    {
+      "origem": "apolo",
+      "destino": "hora",
+      "coordenadas": "-5.354782 / -49.088940 <> -7.1857204852733165 / -48.23521614074708"
     },
-    "demeter": {
-      "coordenadas": "-6.3868438 / -48.5707962",
-      "conexoes": ["apolo"]
+    {
+      "origem": "hora",
+      "destino": "eos",
+      "coordenadas": "-7.1857204852733165 / -48.23521614074708 <> -23.493182448416277 / -46.809297242327354"
     },
-    "hora": {
-      "coordenadas": "-7.1857204852733165 / -48.23521614074708",
-      "conexoes": ["apolo", "eos", "iturama", "poseidon"]
+    {
+      "origem": "hades",
+      "destino": "apolo",
+      "coordenadas": "-5.346501528667517 / -49.09819025052567 <> -5.354782 / -49.088940"
     },
-    "eos": {
-      "coordenadas": "-23.493182448416277 / -46.809297242327354",
-      "conexoes": ["apolo", "hora"]
+    {
+      "origem": "hades",
+      "destino": "poseidon",
+      "coordenadas": "-5.346501528667517 / -49.09819025052567 <> -5.337349 / -49.095832"
     },
-    "iturama": {
-      "coordenadas": null,
-      "conexoes": ["poseidon", "hora"]
+    {
+      "origem": "iturama",
+      "destino": "poseidon",
+      "coordenadas": "null <> -5.337349 / -49.095832"
+    },
+    {
+      "origem": "poseidon",
+      "destino": "hora",
+      "coordenadas": "-5.337349 / -49.095832 <> -7.1857204852733165 / -48.23521614074708"
     }
-  }
+  ]
 }
